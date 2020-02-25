@@ -6,6 +6,9 @@ html {
 .no-padding{
     padding: 0px;
 }
+.no-margin{
+    margin: 0px;
+}
 .container-fluid{
     margin: 17.5vw;
 }
@@ -79,6 +82,8 @@ html {
     font-weight: 600;
     border-width: 2px
 }
+
+
 /* --- Modals --- */
 .modal-body {
     text-align: center;
@@ -118,9 +123,37 @@ margin: 8px 0;
     letter-spacing: 2px;
     font-size: 25px;
     font-weight: 700;
+    padding: 7px
+}
+.card-footer{
+    padding: 5px;
 }
 .btn-light{
     font-weight: 700;
+}
+.btn-outline-light{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.back-top{
+    margin: 0 5px;
+}
+/* ----------- About me ----------------*/
+#about-me{
+    background-attachment: fixed;
+    background-image: url('../images/background/bg-image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    padding-bottom: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about{
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    padding-left: 10px;
+    margin-bottom: 15px
 }
 
 @media only screen and (max-width: 1500px) {
