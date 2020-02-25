@@ -1,22 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Links for Bootstrap, Style.css, FontAwesome and Email.js service respectively -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Links for Bootstrap, Style.css, FontAwesome and Email.js service respectively -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="assets/css/style.css" type="text/css">
-    <script src="https://kit.fontawesome.com/41a908fb89.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
-    <title>Roman Grubic</title>
+	<script src="https://kit.fontawesome.com/41a908fb89.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2.4.1/dist/email.min.js"></script>
+	<title>Roman Grubic</title>
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/icon.png">
 </head>
+
 <body>
-    
-    <!-- Scripts for jQuery, Bootstrap and my local JS files respectively-->	
-	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<nav>
+	</nav>
+	<section id="landing-page">
+		<div class="landing-text text-center">
+			<h1>Roman Grubic</h1>
+			<p>Full-stack Developer</p>
+			<ul class="text-center">
+				<li class="list-inline footer-icons"><a href="https://github.com/romangrubic" target="-blank">
+						<i class="fab fa-github  footer-icon" aria-hidden="true"></i>
+						<span class="sr-only">Github</span></a></li>
+				<li class="list-inline footer-icons"><a href="https://www.linkedin.com/in/roman-grubic-b835ab67/"
+						target="-blank">
+						<i class="fab fa-linkedin footer-icon linkedin" aria-hidden="true"></i>
+						<span class="sr-only">LinkedIn</span></a></li>
+				<li class="list-inline footer-icons">
+					<i class="fas fa-envelope-open-text footer-icon contact" aria-hidden="true" data-toggle="modal" data-target="#contactModal"></i>
+					<span class="sr-only">E-mail</span></li>
+				<li class="list-inline footer-icons">
+					<a href="#" target="-blank">
+						<i class="fas fa-download footer-icon download" aria-hidden="true"></i>
+						<span class="sr-only">Download CV</span>
+					</a>
+			</ul>
+		</div>
+	</section>
+	<section id="projects">
+		<div class="row">
+			<div class="card border-dark mb-3" style="max-width: 25rem;">
+				<div class="card-header bg-transparent text-center">Snoop</div>
+				<div class="card-body no-padding">
+					<img src="assets/images/projects/responsive.png" class="card-img" max-width="25rem" height="250px" alt="Project: Snoop">
+				</div>
+				<div class="card-footer bg-transparent"><h4><span class="badge badge-light">Flask</span></h4></div>
+			</div>
+		</div>
+
+	</section>
+	<!-- Contact form modal -->
+	<div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModal"
+		aria-hidden="true">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title" id="contactModalheading">Contact me!</h2>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+				</div>
+				<div class="modal-body">
+					<form id="contactForm">
+						<input type="text" name="name" class="form-control" id="fullname" placeholder="Name" required/>
+						<input type="email" name="emailaddress" class="form-control" id="emailaddress" minlength="10" pattern=".+.com" placeholder="Email adress" required/>
+						<textarea rows="5" name="projectsummary" class="form-control" id="projectsummary" placeholder="Write your question and click submit!" required></textarea>
+						<button form="contactForm" type="submit" id="submit" class="btn btn-danger" >Submit!</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Scripts for jQuery, Bootstrap and my local JS files respectively-->
+	<script src="https://code.jquery.com/jquery-3.4.1.js"
+		integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+	</script>
 	<script src="assets/js/email.js"></script>
 	<script src="assets/js/script.js"></script>
 </body>
+
 </html>

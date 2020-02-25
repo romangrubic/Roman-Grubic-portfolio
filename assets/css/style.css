@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+.no-padding{
+    padding: 0px;
+}
+
+/* ----- Landing page ----- */
+
+#landing-page {
+    background-attachment: fixed;
+    background-image: url('../images/background/bg-image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.landing-text {
+    padding: 25px 50px;
+    font-family: "Roboto", sans-serif;
+	text-transform: capitalize;
+	letter-spacing: 4px;
+    color: white; 
+    background-color: rgba(0, 0, 0, 0.4);
+    
+}
+.landing-text > h1{
+    font-size: 4vw;
+}
+.landing-text > p{
+    font-size: 2vw;
+    padding-bottom: 1vw;
+}
+
+/* ------- Icons ---------------------------------------*/
+.list-inline{
+    display: inline-block;
+}
+.footer-icons{
+    margin: 25px;
+    font-size: 2vw;
+}
+.footer-icon {
+    width: 4vw;    
+    border-radius: 50%;
+    padding:1vw;
+    margin: auto;
+    color:rgba(0, 0, 0, 0.8);
+    background-color: rgba(255, 255, 255);
+    transition: all 0.35s ease-in-out;
+}
+.footer-icon:hover{
+    color: rgba(255, 255, 255);
+    background-color: rgba(0, 0, 0);
+}
+.linkedin:hover{
+    color: rgba(255, 255, 255);
+    background-color: rgb(0, 110, 255);   
+}
+.contact:hover{
+    color: rgba(255, 255, 255);
+    background-color: rgb(255, 145, 0);   
+}
+.download:hover{
+    color: rgba(255, 255, 255);
+    background-color: rgb(3, 104, 0);    
+}
+
+/* --- Modals --- */
+.modal-body {
+    text-align: center;
+}
+.modal-body > p {
+    margin-bottom:  15px;
+    font-size: 20px;
+}
+.modal-body > h2 {
+    font-size: 50px;
+    margin-top: 30px;
+}
+.modal-body > h4 {
+    font-weight: 500;
+}
+.form-control{
+margin: 8px 0;
+}
+
+/* ---------------- Projects ------------------- */
+#projects{
+    background-attachment: fixed;
+    background-image: url('../images/background/bg-image.jpg');
+    background-position: bottom;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.card{
+    background-color: rgba(255, 255, 255, 0.3);   
+}
+.card-header{
+    font-size: 22px;
+    font-weight: 700;
+}
