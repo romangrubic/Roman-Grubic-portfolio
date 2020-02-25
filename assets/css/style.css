@@ -122,3 +122,65 @@ margin: 8px 0;
 .btn-light{
     font-weight: 700;
 }
+
+@media only screen and (max-width: 1500px) {
+        .landing-text{
+                padding: 25px 6vw;
+                letter-spacing: 2px;
+        }
+        .landing-text > h1{
+            font-size: 75px;
+        }
+        .landing-text > p{
+            font-size: 35px;
+            padding-bottom: 25px;
+        }
+        .footer-icons{
+            margin: 25px;
+            font-size: 30px;
+        }
+        .footer-icon {
+            width: 60px;
+            height: 60px;    
+            border-radius: 50%;
+            padding:15px;
+            margin: auto;
+            color:rgba(0, 0, 0, 0.8);
+            background-color: rgba(255, 255, 255);
+            transition: all 0.35s ease-in-out;
+        }
+        .linkedin{
+            padding-left: 17px;
+        }
+}
+
+@media only screen and (max-width: 1000px) {
+        .landing-text{
+                padding: 25px 50px;
+                letter-spacing: 2px;
+        }
+        .landing-text > h1{
+            font-size: 80px;
+        }
+        .landing-text > p{
+            font-size: 40px;
+            padding-bottom: 25px;
+        }
+        .footer-icons{
+            margin: 25px;
+            font-size: 50px;
+        }
+        .footer-icon {
+            width: 80px;
+            height: 80px;    
+            border-radius: 50%;
+            padding:15px;
+            margin: auto;
+            color:rgba(0, 0, 0, 0.8);
+            background-color: rgba(255, 255, 255);
+            transition: all 0.35s ease-in-out;
+        }
+        .linkedin{
+            padding-left: 17px;
+        }
+}
