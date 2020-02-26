@@ -155,6 +155,12 @@ margin: 8px 0;
     padding-left: 10px;
     margin-bottom: 15px
 }
+.about > h1{
+
+}
+.about >p{
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 1500px) {
         .landing-text{
