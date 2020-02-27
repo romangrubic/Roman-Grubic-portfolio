@@ -23,7 +23,7 @@ document.getElementById('contactForm').addEventListener('submit', function (even
 
 // --- Changes text in button to notify user that e-mail was sent successfuly (200) ---
 function notification() {
-    $("#submit").text("E-mail submitted! Closing...");
+    $("#submit").text("E-mail sent. Thank you!");
     $("#submit").removeClass("btn-danger");
     $("#submit").addClass("btn-success");
     setTimeout(function () { $("#contactModal").modal("toggle"); }, 2000);

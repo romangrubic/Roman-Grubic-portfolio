@@ -110,6 +110,7 @@ margin: 8px 0;
     background-position: bottom;
     background-size: cover;
     height: 100vh;
+    padding-bottom: 75px;
     margin-bottom: 0px;
     display: flex;
     align-items: center;
