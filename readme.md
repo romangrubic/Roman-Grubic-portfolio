@@ -16,7 +16,6 @@ Check out my portfolio below (yes, picture is actually a link for a website) and
 * [User Experience](#ux)
     * [User Stories](#user-stories)
     * [Five planes](#strategy)
-* [Features](#features)
 * [Technology used](#technology-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -37,13 +36,13 @@ Welcome to my portfolio web-site. Goal of this site is to promote myself and my 
 * **easily navigate in as less clicks as possible**
   - Employer/recruiter can easily navigate from landing page to any section with one click. 
   <p align="center">
-  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/landing_page.png" width="500" height="400" alt="Landing page">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/landing_page.png" width="500" height="300" alt="Landing page">
 </p>
 
 * **visit Github, LinkedIn, get in contact or see CV**
   - Employer/recruiter can easily get in contact by clicking on the icons on landing page. 
   <p align="center">
-  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/icons.png" width="500" height="400" alt="Contact icons">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/icons.png" width="500" height="300" alt="Contact icons">
 </p>
 
 * **see other projects, both source code and live demo**
@@ -55,7 +54,7 @@ Welcome to my portfolio web-site. Goal of this site is to promote myself and my 
 * **read something about Roman**
   - There is a small section about me which includes CV that opens in another page. 
   <p align="center">
-  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/about.png" width="500" height="400" alt="About me">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/about.png" width="500" height="300" alt="About me">
 </p>
 
 [Back to top](#summary)
@@ -82,13 +81,6 @@ And again there are buttons which will lead them to about me section or back to 
 
 About me section is short and precise with information about me, what was I doing before, my skills and technologies I learned and a CV icons.
 And again there are buttons which will lead them to project section or back to top.
-
-[Back to top](#summary)
-
----
-
-
-## Features
 
 [Back to top](#summary)
 
