@@ -10,7 +10,7 @@ html {
     margin: 0px;
 }
 .container-fluid{
-    margin: 17.5vw;
+    margin: 0 17.5vw;
 }
 /* ----- Landing page ----- */
 
@@ -39,7 +39,6 @@ html {
 }
 .landing-text > p{
     font-size: 2vw;
-    padding-bottom: 1vw;
 }
 
 /* ------- Icons ---------------------------------------*/
@@ -154,7 +153,7 @@ margin: 8px 0;
     background-position: bottom;
     background-size: cover;
     height: 100vh;
-    padding-bottom: 230px;
+    padding: 100px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
