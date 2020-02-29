@@ -17,8 +17,6 @@ Check out my portfolio below (yes, picture is actually a link for a website) and
     * [User Stories](#user-stories)
     * [Five planes](#strategy)
 * [Features](#features)
-    * [Existing Features](#existing-features)
-    * [Future Features](#future-features)
 * [Technology used](#technology-used)
 * [Testing](#testing)
 * [Deployment](#deployment)
@@ -39,9 +37,60 @@ Welcome to my portfolio web-site. Goal of this site is to promote myself and my 
 * **easily navigate in as less clicks as possible**
   - Employer/recruiter can easily navigate from landing page to any section with one click. 
   <p align="center">
-  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/landing_page.png" width="500" height="300" alt="Landing page">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/landing_page.png" width="500" height="400" alt="Landing page">
 </p>
 
+* **visit Github, LinkedIn, get in contact or see CV**
+  - Employer/recruiter can easily get in contact by clicking on the icons on landing page. 
+  <p align="center">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/icons.png" width="500" height="400" alt="Contact icons">
+</p>
+
+* **see other projects, both source code and live demo**
+  - Projects are in cards with names, images, short description, main technologies used and link to source code and live demo. 
+  <p align="center">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/projects.png" width="750" height="400" alt="Project cards">
+</p>
+
+* **read something about Roman**
+  - There is a small section about me which includes CV that opens in another page. 
+  <p align="center">
+  <img src="https://github.com/romangrubic/Roman-Grubic-portfolio/blob/master/assets/images/readme/about.png" width="500" height="400" alt="About me">
+</p>
+
+[Back to top](#summary)
+
+### Strategy
+
+Portfolio web-site purpose is to promote myself and my skills to employers and recruiters.
+
+### Scope
+
+In designing this page, I wanted for the employer/recruiters to have a positive experience and for the web-site to be simple to use. 
+With only one click, they can see all my projects or read my CV. I don't want to waste time by uneccessary details. Quick and readable was the main goal.
+
+
+
+### Structure
+When they open my prtfolio web-site, they can immediatelly see my name and profession. Clean and readable. Below that, there are icons which
+are used as a quick link to my Github, LinkedIn, contact modal and CV, respectively. After that they have option buttons , from where they can see
+my projects and short description about me. 
+
+On project section, my main projects are represented as cards with their name, an image showing a quick-peek of the project as well
+that it is responsive, a short description of the projects purpose, main technologies used in creating and link to both Github repository and live demo.
+And again there are buttons which will lead them to about me section or back to top.
+
+About me section is short and precise with information about me, what was I doing before, my skills and technologies I learned and a CV icons.
+And again there are buttons which will lead them to project section or back to top.
+
+[Back to top](#summary)
+
+---
+
+
+## Features
+
+[Back to top](#summary)
 
 ---
 
@@ -81,8 +130,6 @@ CSS
 JavaScript
  - code is validated through [JS Hint](https://jshint.com/).
 
-Python
- - code is validated through [PEP8](http://pep8online.com/).
 
  [Back to top](#summary)
 
