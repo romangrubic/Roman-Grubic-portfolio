@@ -3,6 +3,9 @@
 html {
   scroll-behavior: smooth;
 }
+.row{
+    margin: 0px;
+}
 .no-padding{
     padding: 0px;
 }
@@ -61,26 +64,26 @@ html {
     background-image: url('../images/background/bg-image.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     margin-bottom: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    padding-top: 20%;
 }
 .landing-text {
-    padding: 25px 6vw;
+    padding: 25px 15px;
     font-family: "Roboto", sans-serif;
 	text-transform: capitalize;
 	letter-spacing: 4px;
     color: white; 
     background-color: rgba(0, 0, 0, 0.5);
+    max-width: 700px;
+    margin: auto;
     
 }
 .landing-text > h1{
-    font-size: 4vw;
+    font-size: 50px
 }
 .landing-text > p{
-    font-size: 2vw;
+    font-size: 25px;
 }
 
 /* ------- Icons ---------------------------------------*/
@@ -149,20 +152,27 @@ margin: 8px 0;
     background-image: url('../images/background/bg-image.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
-    padding-bottom: 75px;
+    padding: 50px 0;
     margin-bottom: 0px;
-    display: flex;
     align-items: center;
     justify-content: center;    
 }
+.project-card-section{
+   width: 80%;
+   margin: auto;
+}
+.project-card{
+    max-width: 450px;
+    padding: 20px;
+}
 .card{
+    margin: auto;
     transition-duration: 1s;
-    background-color: rgba(255, 255, 255, 0.25);   
+    background-color: rgba(255, 255, 255, 0.65);   
 }
 .card:hover{
     transition-duration: 1s;
-    background-color: rgba(255, 255, 255, 0.85);
+    background-color: rgba(255, 255, 255, 0.9);
 }
 .card-header > h2{ 
     color: rgba(0, 0, 0, 0.815); 
@@ -195,166 +205,23 @@ margin: 8px 0;
     background-image: url('../images/background/bg-image.jpg');
     background-position: bottom;
     background-size: cover;
-    height: 100vh;
     padding: 100px 0px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 .about{
     background-color: rgba(0, 0, 0, 0.4);
     color: white;
     padding: 50px;
-    margin-bottom: 15px
+    margin-bottom: 15px;
+    max-width: 700px;
+    margin: 0 auto 30px;
 }
 
 .about >p{
     font-size: 20px;
 }
 
-@media only screen and (max-width: 1500px) {
-        .landing-text{
-                padding: 25px 6vw;
-                letter-spacing: 2px;
-        }
-        .landing-text > h1{
-            font-size: 75px;
-        }
-        .landing-text > p{
-            font-size: 35px;
-            padding-bottom: 25px;
-        }
-        .footer-icons{
-            margin: 25px;
-            font-size: 30px;
-        }
-        .footer-icon {
-            width: 60px;
-            height: 60px;    
-            border-radius: 50%;
-            padding:15px;
-            margin: auto;
-            color:rgba(0, 0, 0, 0.8);
-            background-color: rgba(255, 255, 255);
-            transition: all 0.35s ease-in-out;
-        }
-        .linkedin{
-            padding-left: 17px;
-        }
-}
-
-@media only screen and (max-width: 1030px) {
-        .container-fluid{
-            margin:0 5vw 0 5vw;
-        }
-        .landing-text{
-                padding: 25px 50px;
-                letter-spacing: 2px;
-        }
-        .landing-text > h1{
-            font-size: 80px;
-        }
-        .landing-text > p{
-            font-size: 40px;
-            padding-bottom: 25px;
-        }
-        .footer-icons{
-            margin: 25px;
-            font-size: 50px;
-        }
-        .footer-icon {
-            width: 80px;
-            height: 80px;    
-            border-radius: 50%;
-            padding:15px;
-            margin: auto;
-            color:rgba(0, 0, 0, 0.8);
-            background-color: rgba(255, 255, 255);
-            transition: all 0.35s ease-in-out;
-        }
-        .linkedin{
-            padding-left: 17px;
-        }
-}
-
-@media only screen and (max-width: 768px) {
-        #landing-page{
-            height: 100vh;
-        }
-        .landing-text{
-                padding: 25px;
-                letter-spacing: 2px;
-        }
-        .landing-text > h1{
-            font-size: 60px;
-        }
-        .landing-text > p{
-            font-size: 28px;
-            padding-bottom: 25px;
-        }
-        .footer-icons{
-            margin: 10px;
-            font-size: 50px;
-        }
-        .footer-icon {
-            width: 80px;
-            height: 80px;    
-            border-radius: 50%;
-            padding:15px;
-            margin: auto;
-            color:rgba(0, 0, 0, 0.8);
-            background-color: rgba(255, 255, 255);
-            transition: all 0.35s ease-in-out;
-        }
-        .linkedin{
-            padding-left: 17px;
-        }
-        #projects{
-            height: 100vh;
-        }
-}
-@media only screen and (max-width: 568px) {
-        #landing-page{
-            height: 100vh;
-        }
-        .landing-text{
-                padding: 15px;
-                letter-spacing: 2px;
-        }
-        .landing-text > h1{
-            font-size: 40px;
-        }
-        .landing-text > p{
-            font-size: 23px;
-            padding-bottom: 20px;
-        }
-        .footer-icons{
-            margin: 5px;
-            font-size: 35px;
-        }
-        .footer-icon {
-            width: 55px;
-            height: 55px;    
-            border-radius: 50%;
-            padding:10px;
-            margin: auto;
-            color:rgba(0, 0, 0, 0.8);
-            background-color: rgba(255, 255, 255);
-            transition: all 0.35s ease-in-out;
-        }
-        ul{
-            padding: 0px;
-        }
-        .linkedin{
-            padding-left: 12px;
-        }
-        #projects{
-            height: 1600px;
-        }
-        h4 > a{
-            margin: 5px;
-        }
-        .col-10{
-            padding: 5px
-        }
+@media only screen and (max-width: 767px){
+    .about{
+        padding: 15px;
+    }
 }
